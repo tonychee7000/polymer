@@ -145,6 +145,9 @@
         <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
         <div class="bottom title">{{.Site.Title}}</div>
         <div class="flex"></div>
+        {{with .Site.Params.weibo}}
+          <a href="https://www.weibo.com/{{ . }}"><paper-icon-button src="{{$baseurl}}/images/weibo.png"></paper-icon-button></a>
+        {{end}}
         {{with .Site.Params.facebook}}
           <a href="https://www.facebook.com/{{ . }}"><paper-icon-button src="{{$baseurl}}/images/facebook-dreamstale25.png"></paper-icon-button></a>
         {{end}}
