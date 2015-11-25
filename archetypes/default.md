@@ -1,4 +1,4 @@
 +++
 Tags = []
-Categories = []
+Categories = ["文章"]
 +++
