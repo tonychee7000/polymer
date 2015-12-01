@@ -323,8 +323,8 @@ To change the background for toolbar when it is condensed:
      */
     measureHeaderHeight: function() {
       var header = this.header;
-      if (header && header.offsetHeight) {
-        this.headerHeight = header.offsetHeight;
+      if (header && header.clientHeight) {
+        this.headerHeight = header.clientHeight;
       }
     },
 
