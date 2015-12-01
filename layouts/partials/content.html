@@ -13,7 +13,7 @@
     {{end}} 
     <div class="description">{{ .Summary }}</div>
     <div class="tags">
-      {{ .Date.Format "2 Jan 2006" }}
+      {{ .Date.Format "2006年01月02日" }}
       {{if .Params.tags }}
         {{ range $index, $tag := .Params.tags }}
           <a href="{{$baseurl}}/tags/{{ $tag | urlize }}/">#{{ $tag }}</a>
