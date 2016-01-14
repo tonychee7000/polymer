@@ -138,15 +138,33 @@
       </iron-image>
       <paper-menu>
         <a href="{{$baseurl}}"><paper-item>
-          <iron-icon icon="home"></iron-icon>　<div class="flex">Home</div>
+          <iron-icon icon="home"></iron-icon>　<div class="flex">
+              {{if .Site.Params.rename.home}}
+              {{.Site.Params.rename.home}}
+              {{else}}
+              Home
+              {{end}}
+          </div>
           <iron-icon icon="chevron-right"></iron-icon>
         </paper-item></a>
         <a href="{{$baseurl}}/categories/"><paper-item>
-          <iron-icon icon="drafts"></iron-icon>　<div class="flex">Categories</div>
+          <iron-icon icon="folder"></iron-icon>　<div class="flex">
+              {{if .Site.Params.rename.categories}}
+              {{.Site.Params.rename.categories}}
+              {{else}}
+              Categories
+              {{end}}
+          </div>
           <iron-icon icon="chevron-right"></iron-icon>
         </paper-item></a>
         <a href="{{$baseurl}}/tags/"><paper-item>
-          <iron-icon icon="loyalty"></iron-icon>　<div class="flex">Tags</div>
+          <iron-icon icon="loyalty"></iron-icon>　<div class="flex">
+              {{if .Site.Params.rename.tags}}
+              {{.Site.Params.rename.tags}}
+              {{else}}
+              Tags
+              {{end}}
+          </div>
           <iron-icon icon="chevron-right"></iron-icon>
         </paper-item></a>
         {{if .Site.Params.menu}}
