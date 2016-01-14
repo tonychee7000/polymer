@@ -150,6 +150,7 @@
           <iron-icon icon="chevron-right"></iron-icon>
         </paper-item></a>
         {{if .Site.Params.menu}}
+            {{.Site.Params.menu}}
             {{range $index, $item := .Site.Params.menu}}
             <a href="{{$baseurl}}{{ $item.link }}"><paper-item>
                     <iron-icon icon="{{ $item.icon }}"></iron-icon>　<div class="flex">{{ $item.name }}</div>
