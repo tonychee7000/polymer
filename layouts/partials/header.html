@@ -149,14 +149,6 @@
           <iron-icon icon="loyalty"></iron-icon>　<div class="flex">Tags</div>
           <iron-icon icon="chevron-right"></iron-icon>
         </paper-item></a>
-        {{if .Site.Menu}}
-            {{range $index, $item := .Site.Menu.Item}}
-            <a href="{{$baseurl}}{{ $item.link }}"><paper-item>
-                    <iron-icon icon="{{ $item.icon }}"></iron-icon>　<div class="flex">{{ $item.name }}</div>
-                    <iron-icon icon="chevron-right"></iron-icon>
-            </paper-item></a>
-            {{end}}
-        {{end}}
       </paper-menu>
     </div>
 
