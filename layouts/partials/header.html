@@ -130,10 +130,14 @@
         outline:none;
     }
     summary::-webkit-details-marker {
-        transition: color 0.25s ease;
+        display:none
+    }
+    summary:after {
+        content: "+";
         color: #ddd;
     }
-    detials[open] summary::-webkit-detials-marker{
+    detials[open] summary:after{
+        content: "-";
         color: #bbb;
     }
   </style>
