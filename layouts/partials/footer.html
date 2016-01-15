@@ -1,8 +1,3 @@
-      <paper-item>
-        <div class="copyright">{{.Site.Copyright}}</div>
-        <div class="flex"></div>
-        <div class="design">Design <a href="http://pdevty.github.io/blog/">pdevty</a></div>
-      </paper-item>
       {{if .Site.Params.Links}}
       <footer class="links">
           <span>{{if .Site.Params.Links.name}}{{.Site.Params.Links.name}}{{else}}Links:{{end}}</span>
@@ -13,6 +8,12 @@
           </ul>
       </footer>
       {{end}}
+
+<paper-item>
+        <div class="copyright">{{.Site.Copyright}}</div>
+        <div class="flex"></div>
+        <div class="design">Design <a href="http://pdevty.github.io/blog/">pdevty</a></div>
+      </paper-item>
     </paper-scroll-header-panel>
   </paper-drawer-panel>
   <script src="/highlight.pack.js"></script>
