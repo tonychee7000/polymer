@@ -3,6 +3,8 @@
 
 {{range $index, $page := .Paginator.Pages}}
   <article>
+    <details>
+        <summary>
     <div class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
     {{if .Params.categories }}
       <div class="categories">
@@ -11,7 +13,9 @@
         {{ end }}
       </div>
     {{end}} 
+        </summary>
     <div class="description">{{ .Summary }}</div>
+    </detials>
     <div class="tags">
       {{ .Date.Format "2006年01月02日" }}
       {{if .Params.tags }}
