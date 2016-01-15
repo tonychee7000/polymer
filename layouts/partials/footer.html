@@ -5,9 +5,9 @@
       </paper-item>
       {{if .Site.Params.Links}}
       <footer class="link">
-          <span>{{if .Site.Params.LinksName}}{{.Site.Params.LinksName}}{{else}}Links:{{end}}</span>
+          <span>{{if .Site.Params.Links.name}}{{.Site.Params.Links.name}}{{else}}Links:{{end}}</span>
           <ul>
-      {{range .Site.Params.Links}}
+      {{range .Site.Params.Links.item}}
       <li><a href="{{.url}}">{{.name}}</a></li>
       {{end}}
           </ul>
