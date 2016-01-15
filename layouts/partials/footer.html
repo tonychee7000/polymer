@@ -8,7 +8,7 @@
           <span>{{if .Site.Params.Links.name}}{{.Site.Params.Links.name}}{{else}}Links:{{end}}</span>
           <ul>
       {{range .Site.Params.Links.item}}
-      <li><a href="{{.url}}">{{.name}}</a></li>
+      <li><a href="{{.url}}" target="_blank">{{.name}}</a></li>
       {{end}}
           </ul>
       </footer>
