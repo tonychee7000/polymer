@@ -3,6 +3,7 @@
 
 {{range $index, $page := .Paginator.Pages}}
   <div class="article">
+      <article>
     <div class="title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
     {{if .Params.categories }}
       <div class="categories">
@@ -20,6 +21,7 @@
         {{ end }}
       {{end}} 
     </div>
+    <article>
   </div>
 {{ end }}
 
