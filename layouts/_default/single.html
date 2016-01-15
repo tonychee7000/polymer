@@ -4,6 +4,7 @@
 <div class="content">
 
   <div class="article">
+  <article>
     <div class="title">{{ .Title }}</div>
     {{if .Params.categories }}
       <div class="categories">
@@ -24,6 +25,7 @@
     {{ with .Site.DisqusShortname }}
       {{ partial "disqus.html" . }}
     {{ end }}
+  </article>
   </div>
 
 </div>
