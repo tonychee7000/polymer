@@ -1,0 +1,65 @@
+CACHE MANIFEST
+# date: {{ .PublishDate }}
+
+CACHE:
+# Images.
+/images/bg.jpg
+/images/email.png
+/images/feed-dreamstale27.png
+/images/github2-dreamstale35.png
+/images/twitter-dreamstale71.png
+/images/weibo.png
+
+# JS.
+/highlight.pack.js
+/bower_components/webcomponentsjs/webcomponents-lite.js
+
+# CSS.
+/css/hilighter/monokai.css
+/bower_components/paper-drawer-panel/paper-drawer-panel.css
+/bower_components/paper-item/paper-item-shared.css
+
+# Imports.
+/bower_components/paper-styles/color.html
+/bower_components/paper-styles/default-theme.html
+/bower_components/iron-a11y-keys-behavior/iron-a11y-keys-behavior.html
+/bower_components/iron-behaviors/iron-button-state.html
+/bower_components/iron-behaviors/iron-control-state.html
+/bower_components/iron-flex-layout/classes/iron-flex-layout.html
+/bower_components/iron-flex-layout/iron-flex-layout.html
+/bower_components/iron-icon/iron-icon.html
+/bower_components/iron-icons/iron-icons.html
+/bower_components/iron-iconset-svg/iron-iconset-svg.html
+/bower_components/iron-image/iron-image.html
+/bower_components/iron-media-query/iron-media-query.html
+/bower_components/iron-menu-behavior/iron-menu-behavior.html
+/bower_components/iron-meta/iron-meta.html
+/bower_components/iron-selector/iron-multi-selectable.html
+/bower_components/iron-resizable-behavior/iron-resizable-behavior.html
+/bower_components/iron-selector/iron-selectable.html
+/bower_components/iron-selector/iron-selection.html
+/bower_components/iron-selector/iron-selector.html
+/bower_components/iron-flex-layout/classes/iron-shadow-flex-layout.html
+/bower_components/paper-behaviors/paper-button-behavior.html
+/bower_components/paper-drawer-panel/paper-drawer-panel.html
+/bower_components/paper-fab/paper-fab.html
+/bower_components/paper-icon-button/paper-icon-button.html
+/bower_components/paper-behaviors/paper-inky-focus-behavior.html
+/bower_components/paper-item/paper-item.html
+/bower_components/paper-material/paper-material.html
+/bower_components/paper-menu/paper-menu.html
+/bower_components/paper-ripple/paper-ripple.html
+/bower_components/paper-scroll-header-panel/paper-scroll-header-panel.html
+/bower_components/paper-styles/paper-styles.html
+/bower_components/paper-toolbar/paper-toolbar.html
+/bower_components/polymer/polymer-micro.html
+/bower_components/polymer/polymer-mini.html
+/bower_components/polymer/polymer.html
+/bower_components/font-roboto/roboto.html
+/bower_components/paper-styles/shadow.html
+/bower_components/paper-styles/typography.html
+
+NETWORK:
+*
+
+FALLBACK:
