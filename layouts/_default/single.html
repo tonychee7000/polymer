@@ -3,7 +3,6 @@
 {{ $baseurl := .Site.BaseURL }}
 <div class="content">
 
-  <div class="article">
   <article>
     <div class="title">{{ .Title }}</div>
     {{if .Params.categories }}
@@ -26,7 +25,6 @@
       {{ partial "disqus.html" . }}
     {{ end }}
   </article>
-  </div>
 
 </div>
 
