@@ -24,9 +24,7 @@
     {{ with .Site.DisqusShortname }}
       {{ partial "disqus.html" . }}
     {{ end }}
-    {{ with .Site.Params.useComment }}
         {{ partial "comment.html" . }}
-    {{ end }}
   </article>
 
 </div>

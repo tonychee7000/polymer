@@ -1,4 +1,4 @@
-{{if eq . true }}
+{{if eq .Site.Params.useComment true }}
 <div class="commentBox">
     <!-- 多说评论框 start -->
     <div class="ds-thread" data-thread-key="{{ .RelPermalink }}" data-title="{{ .Title }}" data-url="{{ .Permalink }}"></div>
