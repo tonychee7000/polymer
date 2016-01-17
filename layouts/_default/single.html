@@ -21,10 +21,12 @@
         {{ end }}
       {{end}} 
     </div>
+    <div class="Comments">
     {{ with .Site.DisqusShortname }}
       {{ partial "disqus.html" . }}
     {{ end }}
-        {{ partial "comment.html" . }}
+    {{ partial "comment.html" . }}
+    </div>
   </article>
 
 </div>
