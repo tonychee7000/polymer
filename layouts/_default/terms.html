@@ -3,6 +3,7 @@
 
 {{ $data := .Data }}
 
+<div>
 <paper-menu>
   {{ range $key, $value := .Data.Terms }}
     <a href="{{$baseurl}}/{{ $data.Plural }}/{{ $key | urlize }}"><paper-item>{{ if eq $data.Plural "tags"}}<iron-icon icon="loyalty"></iron-icon>{{else}}<iron-icon icon="folder"></iron-icon>{{end}}　<div class="flex">{{ $key }}</div> {{ len $value }}</paper-item></a>
