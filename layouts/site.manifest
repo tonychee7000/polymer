@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# date: {{ .PublishDate }}
+# Last Change: {{ .Site.LastChange }}
 
 CACHE:
 # Images.
