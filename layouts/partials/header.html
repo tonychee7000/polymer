@@ -241,7 +241,7 @@
       <paper-toolbar>
 
         <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
-        <div class="bottom title">{{.Site.Title}}</div>
+        <div class="bottom title" style="margin-top: 8px;">{{.Site.Title}}</div>
         <div class="flex"></div>
         {{with .Site.Params.email}}
           <a href="mailto:{{ . }}"><paper-icon-button src="{{$baseurl}}/images/email.png"></paper-icon-button></a>
